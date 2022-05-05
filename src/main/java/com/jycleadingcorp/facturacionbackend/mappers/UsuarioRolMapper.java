@@ -8,6 +8,6 @@ import java.util.List;
 
 @Mapper
 public interface UsuarioRolMapper {
-    @Select("SELECT * FROM UsuarioRol")
+    @Select("SELECT * FROM UsuarioRol UR")
     List<UsuarioRol> findAll();
 }
